@@ -1,0 +1,337 @@
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        font-family: sans-serif;
+    }
+    
+    .containt {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 7px;
+    }
+    
+    #prograss .col {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    h1 {
+        color: black;
+        text-align: center;
+        font-size: 2.15rem;
+        text-transform: uppercase;
+    }
+    
+    h6 {
+        color: #5959a7;
+        font-size: 1.12rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    
+    p {
+        color: #847171;
+        line-height: 1.8;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    section {
+        padding-top: 100px;
+        padding-bottom: 50px;
+        /* background-color: rgb(141, 135, 135); */
+    }
+    
+    .container {
+        width: 1100px;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    
+    .col {
+        width: 33%;
+        float: left;
+        text-align: center;
+    }
+    
+    .col-25 {
+        width: 25%;
+        float: left;
+        text-align: center;
+    }
+    
+    .col-50 {
+        width: 50%;
+        float: left;
+        text-align: center;
+    }
+    
+    i {
+        font-size: 2rem;
+        color: yellow;
+    }
+    
+    header {
+        padding-top: 15px;
+        padding-bottom: 5px;
+        width: 100%;
+        position: fixed;
+        background-color: #00000045;
+        overflow: hidden;
+        z-index: index 99;
+    }
+    
+    .company {
+        padding-left: 35px;
+        float: left;
+    }
+    
+    .company img {
+        float: left;
+    }
+    
+    .company h2 {
+        float: left;
+        color: white;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        margin-top: 7px;
+        margin: 10px;
+    }
+    
+    #mainmenu {
+        padding-left: 35px;
+        float: right;
+        margin: 25px;
+    }
+    
+    #mainmenu ul {
+        list-style: none;
+    }
+    
+    #mainmenu ul li {
+        float: left;
+        margin: auto 5px;
+    }
+    
+    #mainmenu ul li a {
+        padding: 10px 20px;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: white;
+        font-size: 0.95rem;
+    }
+    
+    #mainmenu ul li a:hover {
+        background-color: black;
+        color: #3362c3;
+    }
+    
+    .active a {
+        background-color: black;
+        color: #3362c3 !important;
+    }
+    
+    #home p {
+        text-align: left;
+    }
+    /* button */
+    
+    .btn {
+        padding: 10px 25px;
+        background-color: #3362c3;
+        border: 0px;
+        border-radius: 25px;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        color: white;
+    }
+    /* home part */
+    
+    #home {
+        background-image: url('../images/banner.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 0;
+    }
+    /* about me part */
+    
+    #prograss h5 {
+        text-align: left;
+        color: #6d6c6c;
+        text-transform: uppercase;
+    }
+    
+    .prograssbar {
+        height: 10px;
+        width: 100%;
+        background-color: #6d6c6c;
+        border-radius: 5px;
+        margin: 10px auto;
+    }
+    
+    .prograss_achive {
+        height: 10px;
+        width: 100%;
+        background-color: yellow;
+        border-radius: 5px;
+    }
+    /* service part */
+    
+    #sevice {
+        background-image: url('../images/serve.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #sevice .containt {
+        background-color: #ffffff47;
+        border-radius: 10px;
+        padding: 50px;
+    }
+    
+    #sevice .containt:hover {
+        background-color: rgb(0, 68, 255);
+    }
+    
+    #sevice h3 {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    #sevice p {
+        color: white;
+        font-size: .9rem;
+    }
+    /* review part */
+    
+    #review {
+        background-image: url('../images/stats.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #review i {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+    
+    #review h3 {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        margin-bottom: 25px auto;
+        color: white;
+        font-size: 2rem;
+    }
+    
+    #review h4 {
+        padding-bottom: 50px;
+        color: white;
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+    /* contract part */
+    
+    #contract {
+        background-image: url('../images/contact.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #contract h1 {
+        color: white;
+        text-transform: uppercase;
+        font-size: 2rem;
+        padding-bottom: 50px;
+    }
+    
+    #contract form input,
+    #contract form textarea {
+        width: 100%;
+        background-color: transparent;
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        border: 1px solid white;
+        box-sizing: border-box;
+    }
+    
+    #contract textarea {
+        height: 150px;
+    }
+    
+    #contract i {
+        padding-top: 25px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    
+    #contract h6 {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        color: white;
+        font-size: 1rem;
+    }
+    /* project part  start*/
+    
+    #project img {
+        height: 250px;
+        width: 100%;
+        border: 0;
+    }
+    
+    #project .containt {
+        position: relative;
+    }
+    
+    #project .overlay {
+        position: absolute;
+        bottom: 10px;
+        background-color: black;
+        color: white;
+        left: 10px;
+        right: 10px;
+        padding: 15px;
+        display: none;
+    }
+    
+    #project .containt:hover .overlay {
+        display: block;
+    }
+    /* copy right */
+    
+    footer {
+        background-color: gray;
+        overflow: hidden;
+    }
+    
+    #copyright {
+        float: left;
+        padding-top: 15px;
+    }
+    
+    #footer {
+        float: right;
+    }
+    
+    #footer ul {
+        list-style: none;
+    }
+    
+    #footer ul li {
+        float: left;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
